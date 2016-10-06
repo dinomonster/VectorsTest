@@ -13,9 +13,6 @@ import android.support.v7.widget.AppCompatImageView;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    static {
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-    }
     AppCompatImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
