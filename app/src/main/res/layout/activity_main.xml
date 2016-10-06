@@ -15,5 +15,5 @@
         android:id="@+id/aaaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/v_heard_animation"/>
+        app:srcCompat="@drawable/v_animation"/>
 </RelativeLayout>
