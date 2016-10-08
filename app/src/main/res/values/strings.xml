@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">VectorsTest</string>
+    <string name="left_arrow">M300,70 l 0,70 -70,-70 0,0 70,-70z</string>
+    <string name="right_arrow">M300,70 l 0,-70 70,70 0,0 -70,70z</string>
 </resources>

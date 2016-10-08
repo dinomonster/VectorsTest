@@ -13,20 +13,33 @@ import android.support.v7.widget.AppCompatImageView;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    AppCompatImageView imageView;
+    AppCompatImageView imageView1;
+    AppCompatImageView imageView2;
+    AppCompatImageView imageView3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView  = (AppCompatImageView)findViewById(R.id.aaaa);
+        imageView1  = (AppCompatImageView)findViewById(R.id.image1);
+        imageView2  = (AppCompatImageView)findViewById(R.id.image2);
+        imageView3  = (AppCompatImageView)findViewById(R.id.image3);
         animateImage();
     }
 
-    // 只支持5.0以上.
     private void animateImage() {
-        Drawable animation = imageView.getDrawable();
-        if (animation instanceof Animatable) {
-            ((Animatable) animation).start();
+        Drawable animation1 = imageView1.getDrawable();
+        if (animation1 instanceof Animatable) {
+            ((Animatable) animation1).start();
+        }
+
+        Drawable animation2 = imageView2.getDrawable();
+        if (animation2 instanceof Animatable) {
+            ((Animatable) animation2).start();
+        }
+
+        Drawable animation3 = imageView3.getDrawable();
+        if (animation3 instanceof Animatable) {
+            ((Animatable) animation3).start();
         }
     }
 }
